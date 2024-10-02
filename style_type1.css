@@ -1,0 +1,80 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd(0, 0%, 100%);
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fdfdfd;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #000000;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #555;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+
+.hobby-img {
+    width: 150px; /* Set a specific width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the image rounded */
+    float: left; /* Align to the left */
+    
+    margin-right: 50px; /* Increased space between image and text */
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    .hobby-img {
+        float: none; /* Reset float on smaller screens */
+        display: block; /* Center the image */
+        margin: 20px auto; /* Centering with margin */
+        max-width: 100%; /* Make it responsive */
+    }
+}
